@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clean install'
+                sh 'mvn cleen install' // typo: 'cleen' instead of 'clean'
             }
         }
         stage('Test') {
